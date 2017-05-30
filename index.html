@@ -47,9 +47,16 @@
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
 <![endif]-->
+
 <script src="assets/js/modernizr.js"></script>
 <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="assets/toast/src/jquery.m.toast.css" />
+<script type="text/javascript" src="assets/toast/src/jquery.m.toast.js"></script>
+
 </head>
 
 <style type="text/css">
@@ -606,6 +613,16 @@
     }
 });
 </script>
+
+<script type="text/javascript">
+$(function () {
+
+    $( window ).on( "load", function() {
+        $.toast('Welcome to my Personal Portfolio!', {'width': 1000, 'duration': 3000});;
+    });
+});
+</script>
+
 </body>
 
 </html>
