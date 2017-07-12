@@ -47,7 +47,8 @@ iframe {
 
 /* line 42, ../sass/theme-blog.scss */
 .post-content {
-  padding-left: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 /* line 44, ../sass/theme-blog.scss */
 .post-content h3 {
