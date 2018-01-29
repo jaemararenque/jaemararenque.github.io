@@ -7,7 +7,7 @@
 	<meta name="description" content="Flatize - Shop HTML5 Responsive Template">
 	<meta name="author" content="pixelgeeklab.com">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Camella Homes</title>
+	<title>SMDC Real State Agent | Maria Odeza M. Pelaez</title>
 
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
@@ -61,11 +61,10 @@
 					
 					<div class="navbar-collapse collapse width">
 						<ul class="nav navbar-nav pull-right">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="contact.html">Home</a></li>
 							<li><a href="about-us.html">About</a></li>
-							<li><a href="properties.html">House Models</a></li>
-							<li><a href="buyers-guide.html">Buyers Guide</a></li>
-							<li><a href="promo.html">Promos</a></li>
+							<li><a href="contact.html">Condo For Sale</a></li>
+							<li><a href="contact.html">SMDC Properties</a></li>
 							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
 					</div><!--/.nav-collapse --> 
@@ -83,7 +82,7 @@
 							<div class="container">
 								<div class="property-info">
 									<span class="property-thumb-info-label">
-										<span class="label price">Camella Homes Santa Maria Bulacan</span>
+										<span class="label price">SMDC</span>
 									</span>
 									<div class="property-thumb-info-content">
 										<h2><a href="property-detail.html">State Of the Art</a></h2>
@@ -98,7 +97,7 @@
 							<div class="container">
 								<div class="property-info">
 									<span class="property-thumb-info-label">
-										<span class="label price">Camella Homes Santa Maria Bulacan</span>
+										<span class="label price">SMDC</span>
 									</span>
 									<div class="property-thumb-info-content">
 										<h2><a href="property-detail.html">SM Development Corporation</a></h2>
@@ -113,28 +112,13 @@
 							<div class="container">
 								<div class="property-info">
 									<span class="property-thumb-info-label">
-										<span class="label price">Camella Homes Santa Maria Bulacan</span>
+										<span class="label price">SMDC</span>
 									</span>
 									<div class="property-thumb-info-content">
-										<h2><a href="property-detail.html">  </a></h2>
+										<h2><a href="property-detail.html">SM Touches </a></h2>
 										<p>the lives of millions of people through its stores, malls, banks, hotels and leisure facilities. Now, Filipinos can live in style, comfort, and convenience with SM Development Corporation</p>
 									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item" id="item1"><img src="images/slides/slider4.jpg" alt="Photo" class="img-responsive">
-						<div class="item-caption">
-							<div class="container">
-								<!-- <div class="property-info">
-									<span class="property-thumb-info-label">
-										<span class="label price">Camella Homes Santa Maria Bulacan</span>
-									</span>
-									<div class="property-thumb-info-content">
-										<h2><a href="property-detail.html">State Of the Art</a></h2>
-										<p>Sed perspiciatis unde omnisiste natus error voluptatem remopa accusantium doloremque laudantium, totam rem aperiam.</p>
-									</div>
-								</div> -->
 							</div>
 						</div>
 					</div>
@@ -146,21 +130,19 @@
 			<!-- Begin Featured -->
 			<section class="pgl-featured pgl-bg-grey">
 				<div class="container">
-					<h2>Our Best Sellers</h2>
 					<div class="row">
 						<div class="col-md-6">
 								<article class="post post-large">
 									<div class="post-image">
-										<a href="blog-single.html"><img class="img-responsive" src="images/blog/mika.jpg" alt="Blog"></a>
+										<a href="blog-single.html"><img class="img-responsive" src="images/blog/demo-2.jpg" alt="Blog"></a>
 									</div>
 									<div class="post-body">
 										<div class="post-content">
-											<h3><a href="blog-single.html">MIKA</a></h3>
+											<h3><a href="blog-single.html">2 Bedroom Unit</a></h3>
 											<div class="post-meta">
-												<span><strong> Camella Homes Santa Maria Bulacan: Mika Model</strong></a></span>
+												<span><strong> SMDC: Light, Jazz, Fame</strong></a></span>
 											</div>
 											<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-											<a href="" value="View All" class="btn btn-primary min-wide" data-loading-text="Loading...">View</a>
 											<!-- <a class="btn btn-default btn-sm" href="blog-single.html">Read more</a> -->
 										</div>
 									</div>
@@ -171,23 +153,22 @@
 							<div class="col-md-6">
 								<article class="post post-large">
 									<div class="post-image">
-										<a href="blog-single.html"><img class="img-responsive" src="images/blog/reva.jpg" alt="Blog"></a>
+										<a href="blog-single.html"><img class="img-responsive" src="images/blog/demo-2.jpg" alt="Blog"></a>
 									</div>
 									<div class="post-body">
 										<div class="post-content">
-											<h3><a href="blog-single.html">REVA</a></h3>
+											<h3><a href="blog-single.html">1 Bedroom Unit</a></h3>
 											<div class="post-meta">
-												<span><strong> Camella Homes Santa Maria Bulacan: Reva Model</strong></a></span>
+												<span><strong> SMDC: Light, Jazz, Fame</strong></a></span>
 											</div>
 											<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-											<a href="" value="View All" class="btn btn-primary min-wide" data-loading-text="Loading...">View</a>
 											<!-- <a class="btn btn-default btn-sm" href="blog-single.html">Read more</a> -->
 										</div>
 									</div>
 									
 								</article>
 							</div>
-						<!-- <div class="col-xs-6 col-md-3 animation">
+						<div class="col-xs-6 col-md-3 animation">
 							<div class="pgl-property featured-item">
 								<div class="property-thumb-info">
 									<div class="property-thumb-info-image">
@@ -237,7 +218,7 @@
 										<p>Amet luctus nisl tempus.</p>
 									</div>
 								</div>
-							</div> -->
+							</div>
 						</div>
 					</div>
 					<hr class="top-tall">
@@ -249,6 +230,16 @@
 			<section class="pgl-properties pgl-bg-grey">
 				<div class="container">
 					<h2>Properties</h2>
+					<!-- Nav tabs -->
+					<!-- <ul class="nav nav-tabs pgl-pro-tabs text-center animation" role="tablist">
+						<li class="active"><a href="#all" role="tab" data-toggle="tab">All</a></li>
+						<li><a href="#house" role="tab" data-toggle="tab">House</a></li>
+						<li><a href="#offices" role="tab" data-toggle="tab">Offices</a></li>
+						<li><a href="#apartment" role="tab" data-toggle="tab">Apartment</a></li>
+						<li><a href="#residential" role="tab" data-toggle="tab">Residential</a></li>
+					</ul>
+ -->
+					<!-- Tab panes -->
 					<div class="tab-content">
 						<div class="tab-pane active" id="all">
 							<div class="row">
@@ -257,13 +248,13 @@
 										<a href="fame.html">
 										<div class="property-thumb-info">
 											<div class="property-thumb-info-image">
-												<img alt="" class="img-responsive" src="images/properties/reva.jpg?v=2">
+												<img alt="" class="img-responsive" src="images/properties/property-2.jpg?v=2">
 												<span class="property-thumb-info-label">
 												</span>
 											</div>
 											<div class="property-thumb-info-content">
-												<h3><a href="property-detail.html"><strong>REVA</strong></a></h3>
-												<address>Some short description here.</address>
+												<h3><a href="property-detail.html"><strong>SHORE 3 Residences</strong></a></h3>
+												<address>Seaside Blvd., MOA Complex, Pasay City</address>
 											</div>
 											<div class="amenities clearfix">
 												<ul class="pull-left">
@@ -279,13 +270,13 @@
 										<a href="fame.html">
 										<div class="property-thumb-info">
 											<div class="property-thumb-info-image">
-												<img alt="" class="img-responsive" src="images/properties/mika.jpg?v=2">
+												<img alt="" class="img-responsive" src="images/properties/property-1.jpg?v=2">
 												<span class="property-thumb-info-label">
 												</span>
 											</div>
 											<div class="property-thumb-info-content">
-												<h3><a href="property-detail.html"><strong>MICA</strong></a></h3>
-												<address>Some short description here.</address>
+												<h3><a href="property-detail.html"><strong>FAME Residences</strong></a></h3>
+												<address>EDSA and Mayflower Street, Brgy. Highway Hills, Mandaluyong City</address>
 											</div>
 											<div class="amenities clearfix">
 												<ul class="pull-left">
@@ -301,13 +292,13 @@
 										<a href="fame.html">
 										<div class="property-thumb-info">
 											<div class="property-thumb-info-image">
-												<img alt="" class="img-responsive" src="images/properties/bella.jpg?v=2">
+												<img alt="" class="img-responsive" src="images/properties/property-1.jpg?v=2">
 												<span class="property-thumb-info-label">
 												</span>
 											</div>
 											<div class="property-thumb-info-content">
-												<h3><a href="property-detail.html"><strong>BELLA</strong></a></h3>
-												<address>Some short description here.</address>
+												<h3><a href="property-detail.html"><strong>FAME Residences</strong></a></h3>
+												<address>EDSA and Mayflower Street, Brgy. Highway Hills, Mandaluyong City</address>
 											</div>
 											<div class="amenities clearfix">
 												<ul class="pull-left">
@@ -325,13 +316,13 @@
 										<a href="fame.html">
 										<div class="property-thumb-info">
 											<div class="property-thumb-info-image">
-												<img alt="" class="img-responsive" src="images/properties/cara.jpg?v=2">
+												<img alt="" class="img-responsive" src="images/properties/property-1.jpg?v=2">
 												<span class="property-thumb-info-label">
 												</span>
 											</div>
 											<div class="property-thumb-info-content">
-												<h3><a href="property-detail.html"><strong>CARA</strong></a></h3>
-												<address>Some short description here.</address>
+												<h3><a href="property-detail.html"><strong>FAME Residences</strong></a></h3>
+												<address>EDSA and Mayflower Street, Brgy. Highway Hills, Mandaluyong City</address>
 											</div>
 											<div class="amenities clearfix">
 												<ul class="pull-left">
@@ -347,13 +338,13 @@
 										<a href="fame.html">
 										<div class="property-thumb-info">
 											<div class="property-thumb-info-image">
-												<img alt="" class="img-responsive" src="images/properties/dana.jpg?v=2">
+												<img alt="" class="img-responsive" src="images/properties/property-1.jpg?v=2">
 												<span class="property-thumb-info-label">
 												</span>
 											</div>
 											<div class="property-thumb-info-content">
-												<h3><a href="property-detail.html"><strong>DANA</strong></a></h3>
-												<address>Some short description here.</address>
+												<h3><a href="property-detail.html"><strong>FAME Residences</strong></a></h3>
+												<address>EDSA and Mayflower Street, Brgy. Highway Hills, Mandaluyong City</address>
 											</div>
 											<div class="amenities clearfix">
 												<ul class="pull-left">
@@ -369,13 +360,13 @@
 										<a href="fame.html">
 										<div class="property-thumb-info">
 											<div class="property-thumb-info-image">
-												<img alt="" class="img-responsive" src="images/properties/ella.jpg?v=2">
+												<img alt="" class="img-responsive" src="images/properties/property-1.jpg?v=2">
 												<span class="property-thumb-info-label">
 												</span>
 											</div>
 											<div class="property-thumb-info-content">
-												<h3><a href="property-detail.html"><strong>ELLA</strong></a></h3>
-												<address>Some short description here.</address>
+												<h3><a href="property-detail.html"><strong>FAME Residences</strong></a></h3>
+												<address>EDSA and Mayflower Street, Brgy. Highway Hills, Mandaluyong City</address>
 											</div>
 											<div class="amenities clearfix">
 												<ul class="pull-left">
@@ -386,9 +377,6 @@
 										</a>
 									</div>
 								</div>
-							</div>
-							<div class="form-group text-center">
-								<a  href="" value="View All" class="btn btn-primary min-wide" data-loading-text="Loading...">View All Properties</a> 
 							</div>
 						</div>
 						<div class="tab-pane" id="house">
@@ -663,90 +651,15 @@
 							</div>
 						</div>
 					</div>
+					
 				</div>
 			</section>
 			<!-- End Properties -->
-			<section class="pgl-featured">
-				<div class="container">
-					<h2>Amenities</h2>
-					<div class="row">
-						<div class="col-md-3">
-								<article class="post post-large">
-									<div class="post-image">
-										<a href="blog-single.html"><img class="img-responsive" src="images/amenities/pool.jpg" alt="Blog"></a>
-									</div>
-								</article>
-							</div>
-
-							<div class="col-md-3">
-								<article class="post post-large">
-									<div class="post-image">
-										<a href="blog-single.html"><img class="img-responsive" src="images/amenities/court.jpg" alt="Blog"></a>
-									</div>
-								</article>
-							</div>
-
-							<div class="col-md-3">
-								<article class="post post-large">
-									<div class="post-image">
-										<a href="blog-single.html"><img class="img-responsive" src="images/amenities/run.jpg" alt="Blog"></a>
-									</div>
-								</article>
-							</div>
-
-							<div class="col-md-3">
-								<article class="post post-large">
-									<div class="post-image">
-										<a href="blog-single.html"><img class="img-responsive" src="images/amenities/play.jpg" alt="Blog"></a>
-									</div>
-								</article>
-							</div>
-						</div>
-					</div>
-
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-									<article class="post post-large">
-										<div class="post-image">
-											<a href="blog-single.html"><img class="img-responsive" src="images/amenities/pool-1.jpg" alt="Blog"></a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-6">
-									<article class="post post-large">
-										<div class="post-image">
-											<a href="blog-single.html"><img class="img-responsive" src="images/amenities/court-2.jpg" alt="Blog"></a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-6">
-									<article class="post post-large">
-										<div class="post-image">
-											<a href="blog-single.html"><img class="img-responsive" src="images/amenities/gate.jpg" alt="Blog"></a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-6">
-									<article class="post post-large">
-										<div class="post-image">
-											<a href="blog-single.html"><img class="img-responsive" src="images/amenities/play-2.jpg" alt="Blog"></a>
-										</div>
-									</article>
-								</div>
-							</div>
-						</div>
-					</div>
-					<hr class="top-tall">
-				</div>
-			</section>
+			
 			<!-- Begin Agents -->
 			<section class="pgl-agents">
 				<div class="container">
-					<h2>Camella Homes Santa Maria Bulacan Property Specialist</h2>
+					<h2>Smdc Property Specialist</h2>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="pgl-agent-item pgl-bg-light">
@@ -758,14 +671,14 @@
 									</div>
 									<div class="col-xs-8">
 										<div class="pgl-agent-info">
-											<h4><a href="agentprofile.html" style="font-size: 20px; margin-top: 35px;">Cel Jeneil Anastacio</a></h4>
+											<h4><a href="agentprofile.html" style="font-size: 20px; margin-top: 35px;">Maria Odeza M. Pelaez</a></h4>
 											<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum nisi eu ante mattisLorem ipsum dolor sit amet, consectetur adipiscing elit. Eu ante mattisLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum nisi eu ante mattis.</p>
 											<address>
 												<i class="fa fa-map-marker"></i> Office : 1-800-666-8888<br>
-												<i class="fa fa-phone"></i> Mobile : 09770139285<br>
-												<i class="fa fa-envelope-o"></i> Mail: <a href="mailto:odezapelaez@yahoo.com">anastacioceljeneil@gmail.com</a>
+												<i class="fa fa-phone"></i> Mobile : 09063859195<br>
+												<i class="fa fa-envelope-o"></i> Mail: <a href="mailto:odezapelaez@yahoo.com">odezapelaez@yahoo.com</a>
 											</address>
-											<a href="contact.html" class="btn btn-lg btn-default">Contact Now</a>
+											<a href="about-us.html" class="btn btn-lg btn-default">Contact Now</a>
 										</div>
 									</div>
 								</div>
@@ -786,12 +699,12 @@
 							<p><img src="images/content/demo-1.jpg" alt="" class="img-responsive"></p>
 							<p>Every single day, SM touches the lives of millions of people through its stores, malls, banks, hotels and leisure facilities. Now, Filipinos can live in style, comfort, and convenience with <strong>SM Development Corporation.</strong></p>
 						</div>
-						<div class="col-md-8 animation about-item">
-							<h2>FAQ's</h2>
+						<div class="col-md-4 animation about-item">
+							<h2>Why Choose Us</h2>
 							<div class="panel-group" id="accordion">
 								<div class="panel panel-default pgl-panel">
 									<div class="panel-heading">
-										<h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">How much should our household income be to afford a P2M house and lot?</a> </h4>
+										<h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Designed for your business</a> </h4>
 									</div>
 									<div id="collapseOne" class="panel-collapse collapse in">
 										<div class="panel-body"> 
@@ -801,7 +714,7 @@
 								</div>
 								<div class="panel panel-default pgl-panel">
 									<div class="panel-heading">
-										<h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">How to know legitimate Agent?</a> </h4>
+										<h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">Fully responsive</a> </h4>
 									</div>
 									<div id="collapseTwo" class="panel-collapse collapse">
 										<div class="panel-body"> <p>Sed perspiciatis unde omnisiste natus error voluptatem remopa accusantium doloremque laudantium, totam rem aperiam.</p> </div>
@@ -809,7 +722,7 @@
 								</div>
 								<div class="panel panel-default pgl-panel">
 									<div class="panel-heading">
-										<h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">How to buy a unit?</a> </h4>
+										<h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">Ample customizations</a> </h4>
 									</div>
 									<div id="collapseThree" class="panel-collapse collapse">
 										<div class="panel-body">
@@ -819,13 +732,54 @@
 								</div>
 								<div class="panel panel-default pgl-panel">
 									<div class="panel-heading">
-										<h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseFouth" class="collapsed">How can I rent a unit?</a> </h4>
+										<h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseFouth" class="collapsed">Bootstrap Compatible</a> </h4>
 									</div>
 									<div id="collapseFouth" class="panel-collapse collapse">
 										<div class="panel-body">
 											<p>Sed perspiciatis unde omnisiste natus error voluptatem remopa accusantium doloremque laudantium, totam rem aperiam.</p>
 										</div>
 									</div>
+								</div>
+								<div class="panel panel-default pgl-panel">
+									<div class="panel-heading">
+										<h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" class="collapsed">Unique Design</a> </h4>
+									</div>
+									<div id="collapseFive" class="panel-collapse collapse">
+										<div class="panel-body">
+											<p>Sed perspiciatis unde omnisiste natus error voluptatem remopa accusantium doloremque laudantium, totam rem aperiam.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 animation about-item">
+							<h2>Happy Clients</h2>
+							<div class="owl-carousel pgl-bg-dark pgl-testimonial" data-plugin-options='{"items": 1, "pagination": false, "autoHeight": true}'>
+								<div class="col-md-12">
+									<div class="testimonial-author">
+										<div class="img-thumbnail-small img-circle">
+											<img src="images/agents/agent-1.jpg" class="img-circle" alt="Andrew MCCarthy">
+										</div>
+										<h4>Andrew MCCarthy</h4>
+										<p><strong>Selller</strong></p>
+									</div>
+									<div class="divider-quote-sign"><span>“</span></div>
+									<blockquote class="testimonial">
+										<p>Sed perspiciatis unde omnisiste natus error voluptatem remopa accusantium doloremque laudantium totam rem.</p>
+									</blockquote>
+								</div>
+								<div class="col-md-12">
+									<div class="testimonial-author">
+										<div class="img-thumbnail-small img-circle">
+											<img src="images/agents/agent-1.jpg" class="img-circle" alt="John Smith">
+										</div>
+										<h4>John Smith</h4>
+										<p><strong>Selller</strong></p>
+									</div>
+									<div class="divider-quote-sign"><span>“</span></div>
+									<blockquote class="testimonial">
+										<p>Sed perspiciatis unde omnisiste natus error voluptatem remopa accusantium doloremque laudantium totam rem.</p>
+									</blockquote>
 								</div>
 							</div>
 						</div>
@@ -842,9 +796,9 @@
 			<div class="container">
 				<div class="pgl-upper-foot">
 					<div class="row">
-						<div class="col-sm-6">
-							<h2>Cel Jeneil Anastacio</h2>
-							<p>Cel Jeneil Anastacio is a Camella Homes Santa Maria Bulacan Property Specialist Lorem ipsum dolor sit amet.</p>
+						<div class="col-sm-4">
+							<h2>MARIA ODEZA M. PELAEZ</h2>
+							<p>Maria Odeza M. Pelaez is a SMDC Property Specialist Lorem ipsum dolor sit amet.</p>
 							<address>
 								<i class="fa fa-map-marker"></i> Office : 1-800-666-8888<br>
 								<i class="fa fa-phone"></i> Mobile : 0800-666-6666<br>
@@ -855,14 +809,30 @@
 						<div class="col-sm-2">
 							<h2>Useful links</h2>
 							<ul class="list-unstyled">
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="#">Properties</a></li>
+								<li><a href="#">Help and FAQs</a></li>
+								<li><a href="#">Home Price</a></li>
+								<li><a href="#">Market View</a></li>
+								<li><a href="#">Free Credit Report</a></li>
+								<li><a href="#">Terms and Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Community Guidelines</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-2">
+							<h2>Pages</h2>
+							<ul class="list-unstyled">
+								<li><a href="#">Font &amp; Color</a></li>
+								<li><a href="#">Blogs</a></li>
 								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">404 Page</a></li>
+								<li><a href="#">Advanced Search</a></li>
+								<li><a href="#">Property Custom Field</a></li>
+								<li><a href="#">Google Map</a></li>
 							</ul>
 						</div>
 						<div class="col-sm-4">
 							<h2>Don’t miss out</h2>
-							<p>Don't miss any updates from SM Development Corporation. Be the first one to get the important news and all about Camella Homes Santa Maria Bulacan units and rooms.</p>
+							<p>In venenatis neque a eros laoreet eu placerat erat suscipit. Fusce cursus, erat ut scelerisque condimentum, quam odio ultrices leo.</p>
 							<form class="form-inline pgl-form-newsletter" role="form">
 								<div class="form-group">
 									<label class="sr-only" for="exampleInputEmail2">Email address</label>
