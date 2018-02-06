@@ -117,7 +117,7 @@
 
                   <li class="parent"><a href="#"><i class="icon mdi mdi-apple"></i><span>Products</span></a>
                     <ul class="sub-menu">
-                      <li><a href="product-list.html">List of Products</a>
+                      <li><a href="#">List of Products</a>
                       </li>
                       <li><a href="#">Add Products</a>
                       </li>
@@ -162,172 +162,20 @@
         </div>
       </div>
       <div class="be-content">
+        <div class="page-head">
+          <h2 class="page-head-title">Product</h2>
+          <ol class="breadcrumb page-head-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li class="active">Product List</li>
+          </ol>
+        </div>
         <div class="main-content container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                        <div class="widget widget-tile">
-                          <div id="spark1" class="chart sparkline"></div>
-                          <div class="data-info">
-                            <div class="desc">New Users this Week</div>
-                            <div class="value"><span class="indicator indicator-equal mdi mdi-chevron-right"></span><span data-toggle="counter" data-end="113" class="number">0</span>
-                            </div>
-                          </div>
-                        </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                        <div class="widget widget-tile">
-                          <div id="spark2" class="chart sparkline"></div>
-                          <div class="data-info">
-                            <div class="desc">Monthly Sales</div>
-                            <div class="value"><span class="indicator indicator-positive mdi mdi-chevron-up"></span><span data-toggle="counter" data-end="80" data-suffix="%" class="number">0</span>
-                            </div>
-                          </div>
-                        </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                        <div class="widget widget-tile">
-                          <div id="spark3" class="chart sparkline"></div>
-                          <div class="data-info">
-                            <div class="desc">Product Orders</div>
-                            <div class="value"><span class="indicator indicator-positive mdi mdi-chevron-up"></span><span data-toggle="counter" data-end="532" class="number">0</span>
-                            </div>
-                          </div>
-                        </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                        <div class="widget widget-tile">
-                          <div id="spark4" class="chart sparkline"></div>
-                          <div class="data-info">
-                            <div class="desc">Product Delivered</div>
-                            <div class="value"><span class="indicator indicator-negative mdi mdi-chevron-down"></span><span data-toggle="counter" data-end="113" class="number">0</span>
-                            </div>
-                          </div>
-                        </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="widget widget-fullwidth be-loading">
-                <div class="widget-head">
-                  <div class="tools">
-                    <div class="dropdown"><span data-toggle="dropdown" class="icon mdi mdi-more-vert visible-xs-inline-block dropdown-toggle"></span>
-                      <ul role="menu" class="dropdown-menu">
-                        <li><a href="#">Week</a></li>
-                        <li><a href="#">Month</a></li>
-                        <li><a href="#">Year</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Today</a></li>
-                      </ul>
-                    </div><span class="icon mdi mdi-chevron-down"></span><span class="icon toggle-loading mdi mdi-refresh-sync"></span><span class="icon mdi mdi-close"></span>
-                  </div>
-                  <div class="button-toolbar hidden-xs">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-default">Week</button>
-                      <button type="button" class="btn btn-default active">Month</button>
-                      <button type="button" class="btn btn-default">Year</button>
-                    </div>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-default">Today</button>
-                    </div>
-                  </div><span class="title">Product Orders</span>
-                </div>
-                <div class="widget-chart-container">
-                  <div class="widget-chart-info">
-                    <ul class="chart-legend-horizontal">
-                      <li><span data-color="main-chart-color1"></span> Purchases</li>
-                      <li><span data-color="main-chart-color2"></span> Cancelled</li>
-                    </ul>
-                  </div>
-                  <div class="widget-counter-group widget-counter-group-right">
-                    <div class="counter counter-big">
-                      <div class="value">25%</div>
-                      <div class="desc">Purchase</div>
-                    </div>
-                    <div class="counter counter-big">
-                      <div class="value">5%</div>
-                      <div class="desc">Cancelled Orders</div>
-                    </div>
-                  </div>
-                  <div id="main-chart" style="height: 260px;"></div>
-                </div>
-                <div class="be-spinner">
-                  <svg width="40px" height="40px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                    <circle fill="none" stroke-width="4" stroke-linecap="round" cx="33" cy="33" r="30" class="circle"></circle>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
+            <!--Responsive table-->
+            <div class="col-sm-12">
               <div class="panel panel-default panel-table">
-                <div class="panel-heading"> 
-                  <div class="tools dropdown"> <span class="icon mdi mdi-download"></span><a href="#" type="button" data-toggle="dropdown" class="dropdown-toggle"><span class="icon mdi mdi-more-vert"></span></a>
-                    <ul role="menu" class="dropdown-menu pull-right">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                    </ul>
-                  </div>
-                  <div class="title">Purchases</div>
-                </div>
-                <div class="panel-body table-responsive">
-                  <table class="table table-striped table-borderless">
-                    <thead>
-                      <tr>
-                        <th style="width:40%;">New Account Sign Up</th>
-                        <th class="number">Purchases</th>
-                        <th style="width:20%;">Last Pruchase</th>
-                        <th style="width:20%;">Email</th>
-                        <th style="width:5%;" class="actions"></th>
-                      </tr>
-                    </thead>
-                    <tbody class="no-border-x">
-                      <tr>
-                        <td>John Doe</td>
-                        <td class="number">$149</td>
-                        <td>Aug 23, 2016</td>
-                        <td class="text-success">johndoe@gmail.com</td>
-                        <td class="actions"><a href="#" class="icon"><i class="mdi mdi-plus-circle-o"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td>John Doe</td>
-                        <td class="number">$535</td>
-                        <td>Aug 20, 2016</td>
-                        <td class="text-success">johndoe@gmail.com</td>
-                        <td class="actions"><a href="#" class="icon"><i class="mdi mdi-plus-circle-o"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td>John Doe</td>
-                        <td class="number">$583</td>
-                        <td>Aug 18, 2016</td>
-                        <td class="text-warning">johndoe@gmail.com</td>
-                        <td class="actions"><a href="#" class="icon"><i class="mdi mdi-plus-circle-o"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td>John Doe</td>
-                        <td class="number">$350</td>
-                        <td>Aug 15, 2016</td>
-                        <td class="text-warning">johndoe@gmail.com</td>
-                        <td class="actions"><a href="#" class="icon"><i class="mdi mdi-plus-circle-o"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td>John Doe</td>
-                        <td class="number">$495</td>
-                        <td>Aug 13, 2016</td>
-                        <td class="text-danger">johndoe@gmail.com</td>
-                        <td class="actions"><a href="#" class="icon"><i class="mdi mdi-plus-circle-o"></i></a></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="panel panel-default panel-table">
-                <div class="panel-heading">
+                <div class="panel-heading">Product List
                   <div class="tools dropdown"><span class="icon mdi mdi-download"></span><a href="#" type="button" data-toggle="dropdown" class="dropdown-toggle"><span class="icon mdi mdi-more-vert"></span></a>
                     <ul role="menu" class="dropdown-menu pull-right">
                       <li><a href="#">Action</a></li>
@@ -337,161 +185,175 @@
                       <li><a href="#">Separated link</a></li>
                     </ul>
                   </div>
-                  <div class="title">Top Buyers</div>
                 </div>
-                <div class="panel-body table-responsive">
-                  <table class="table table-striped table-hover">
-                    <thead>
-                      <tr>
-                        <th style="width:37%;">Full Name</th>
-                        <th style="width:36%;">Username</th>
-                        <th>Number of Purchase</th>
-                        <th class="actions"></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td class="user-avatar"> <img src="assets/img/avatar6.png" alt="Avatar">Penelope Thornton</td>
-                        <td>johndoe34</td>
-                        <td>1200</td>
-                        <td class="actions"><a href="#" class="icon"><i class="mdi mdi-github-alt"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td class="user-avatar"> <img src="assets/img/avatar4.png" alt="Avatar">Benji Harper</td>
-                        <td>johndoe34</td>
-                        <td>1025</td>
-                        <td class="actions"><a href="#" class="icon"><i class="mdi mdi-github-alt"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td class="user-avatar"> <img src="assets/img/avatar5.png" alt="Avatar">Justine Myranda</td>
-                        <td>johndoe34</td>
-                        <td>952</td>
-                        <td class="actions"><a href="#" class="icon"><i class="mdi mdi-github-alt"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td class="user-avatar"> <img src="assets/img/avatar3.png" alt="Avatar">Sherwood Clifford</td>
-                        <td>johndoe34</td>
-                        <td>54</td>
-                        <td class="actions"><a href="#" class="icon"><i class="mdi mdi-github-alt"></i></a></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-md-4">
-              <div class="panel panel-default">
-                <div class="panel-heading panel-heading-divider xs-pb-15">Current Progress</div>
-                <div class="panel-body xs-pt-25">
-                  <div class="row user-progress user-progress-small">
-                    <div class="col-md-5"><span class="title">Bootstrap Admin</span></div>
-                    <div class="col-md-7">
-                      <div class="progress">
-                        <div style="width: 40%" class="progress-bar progress-bar-success"></div>
-                      </div>
-                    </div>
+                <div class="panel-body">
+                  <div class="table-responsive noSwipe">
+                    <table class="table table-striped table-hover">
+                      <thead>
+                        <tr>
+                          <th style="width:5%;">
+                            <div class="be-checkbox be-checkbox-sm">
+                              <input id="check1" type="checkbox">
+                              <label for="check1"></label>
+                            </div>
+                          </th>
+                          <th style="width:20%;">User</th>
+                          <th style="width:17%;">Last Commit</th>
+                          <th style="width:15%;">Milestone</th>
+                          <th style="width:10%;">Branch</th>
+                          <th style="width:10%;">Date</th>
+                          <th style="width:10%;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="be-checkbox be-checkbox-sm">
+                              <input id="check2" type="checkbox">
+                              <label for="check2"></label>
+                            </div>
+                          </td>
+                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar6.png" alt="Avatar"><span>Penelope Thornton</span><span class="cell-detail-description">Developer</span></td>
+                          <td class="cell-detail"> <span>Initial commit</span><span class="cell-detail-description">Bootstrap Admin</span></td>
+                          <td class="milestone"><span class="completed">8 / 15</span><span class="version">v1.2.0</span>
+                            <div class="progress">
+                              <div style="width: 45%" class="progress-bar progress-bar-primary"></div>
+                            </div>
+                          </td>
+                          <td class="cell-detail"><span>master</span><span class="cell-detail-description">63e8ec3</span></td>
+                          <td class="cell-detail"><span>May 6, 2016</span><span class="cell-detail-description">8:30</span></td>
+                          <td class="text-right">
+                            <div class="btn-group btn-hspace">
+                              <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Open <span class="icon-dropdown mdi mdi-chevron-down"></span></button>
+                              <ul role="menu" class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class="online">
+                          <td>
+                            <div class="be-checkbox be-checkbox-sm">
+                              <input id="check3" type="checkbox">
+                              <label for="check3"></label>
+                            </div>
+                          </td>
+                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar4.png" alt="Avatar"><span>Benji Harper</span><span class="cell-detail-description">Designer</span></td>
+                          <td class="cell-detail"> <span>Main structure markup</span><span class="cell-detail-description">CLI Connector</span></td>
+                          <td class="milestone"><span class="completed">22 / 30</span><span class="version">v1.1.5</span>
+                            <div class="progress">
+                              <div style="width: 75%" class="progress-bar progress-bar-primary"></div>
+                            </div>
+                          </td>
+                          <td class="cell-detail"><span>develop</span><span class="cell-detail-description">4cc1bc2</span></td>
+                          <td class="cell-detail"><span>April 22, 2016</span><span class="cell-detail-description">14:45</span></td>
+                          <td class="text-right">
+                            <div class="btn-group btn-hspace">
+                              <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Open <span class="icon-dropdown mdi mdi-chevron-down"></span></button>
+                              <ul role="menu" class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="be-checkbox be-checkbox-sm">
+                              <input id="check4" type="checkbox">
+                              <label for="check4"></label>
+                            </div>
+                          </td>
+                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar5.png" alt="Avatar"><span>Justine Myranda</span><span class="cell-detail-description">Designer</span></td>
+                          <td class="cell-detail"> <span>Left sidebar adjusments</span><span class="cell-detail-description">Back-end Manager</span></td>
+                          <td class="milestone"><span class="completed">10 / 30</span><span class="version">v1.1.3</span>
+                            <div class="progress">
+                              <div style="width: 33%" class="progress-bar progress-bar-primary"></div>
+                            </div>
+                          </td>
+                          <td class="cell-detail"><span>develop</span><span class="cell-detail-description">5477993</span></td>
+                          <td class="cell-detail"><span>April 15, 2016</span><span class="cell-detail-description">10:00</span></td>
+                          <td class="text-right">
+                            <div class="btn-group btn-hspace">
+                              <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Open <span class="icon-dropdown mdi mdi-chevron-down"></span></button>
+                              <ul role="menu" class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="be-checkbox be-checkbox-sm">
+                              <input id="check5" type="checkbox">
+                              <label for="check5"></label>
+                            </div>
+                          </td>
+                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar3.png" alt="Avatar"><span>Sherwood Clifford</span><span class="cell-detail-description">Developer</span></td>
+                          <td class="cell-detail"> <span>Topbar dropdown style</span><span class="cell-detail-description">Bootstrap Admin</span></td>
+                          <td class="milestone"><span class="completed">25 / 40</span><span class="version">v1.0.4</span>
+                            <div class="progress">
+                              <div style="width: 55%" class="progress-bar progress-bar-primary"></div>
+                            </div>
+                          </td>
+                          <td class="cell-detail"><span>master</span><span class="cell-detail-description">8cb98ec</span></td>
+                          <td class="cell-detail"><span>April 8, 2016</span><span class="cell-detail-description">17:24</span></td>
+                          <td class="text-right">
+                            <div class="btn-group btn-hspace">
+                              <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Open <span class="icon-dropdown mdi mdi-chevron-down"></span></button>
+                              <ul role="menu" class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class="online">
+                          <td>
+                            <div class="be-checkbox be-checkbox-sm">
+                              <input id="check6" type="checkbox">
+                              <label for="check6"></label>
+                            </div>
+                          </td>
+                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar.png" alt="Avatar"><span>Kristopher Donny</span><span class="cell-detail-description">Designer</span></td>
+                          <td class="cell-detail"> <span>Right sidebar adjusments</span><span class="cell-detail-description">CLI Connector</span></td>
+                          <td class="milestone"><span class="completed">38 / 40</span><span class="version">v1.0.1</span>
+                            <div class="progress">
+                              <div style="width: 98%" class="progress-bar progress-bar-primary"></div>
+                            </div>
+                          </td>
+                          <td class="cell-detail"><span>master</span><span class="cell-detail-description">65bc2da</span></td>
+                          <td class="cell-detail"><span>Mars 18, 2016</span><span class="cell-detail-description">13:02</span></td>
+                          <td class="text-right">
+                            <div class="btn-group btn-hspace">
+                              <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Open <span class="icon-dropdown mdi mdi-chevron-down"></span></button>
+                              <ul role="menu" class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated lin</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
-                  <div class="row user-progress user-progress-small">
-                    <div class="col-md-5"><span class="title">Custom Work</span></div>
-                    <div class="col-md-7">
-                      <div class="progress">
-                        <div style="width: 65%" class="progress-bar progress-bar-success"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row user-progress user-progress-small">
-                    <div class="col-md-5"><span class="title">Clients Module</span></div>
-                    <div class="col-md-7">
-                      <div class="progress">
-                        <div style="width: 30%" class="progress-bar progress-bar-success"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row user-progress user-progress-small">
-                    <div class="col-md-5"><span class="title">Email Templates</span></div>
-                    <div class="col-md-7">
-                      <div class="progress">
-                        <div style="width: 80%" class="progress-bar progress-bar-success"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row user-progress user-progress-small">
-                    <div class="col-md-5"><span class="title">Plans Module</span></div>
-                    <div class="col-md-7">
-                      <div class="progress">
-                        <div style="width: 45%" class="progress-bar progress-bar-success"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-4">
-              <div class="widget be-loading">
-                <div class="widget-head">
-                  <div class="tools"><span class="icon mdi mdi-chevron-down"></span><span class="icon mdi mdi-refresh-sync toggle-loading"></span><span class="icon mdi mdi-close"></span></div>
-                  <div class="title">Top Sales</div>
-                </div>
-                <div class="widget-chart-container">
-                  <div id="top-sales" style="height: 178px;"></div>
-                  <div class="chart-pie-counter">36</div>
-                </div>
-                <div class="chart-legend">
-                  <table>
-                    <tr>
-                      <td class="chart-legend-color"><span data-color="top-sales-color1"></span></td>
-                      <td>Beverages</td>
-                      <td class="chart-legend-value">125</td>
-                    </tr>
-                    <tr>
-                      <td class="chart-legend-color"><span data-color="top-sales-color2"></span></td>
-                      <td>Junk Foods</td>
-                      <td class="chart-legend-value">1569</td>
-                    </tr>
-                    <tr>
-                      <td class="chart-legend-color"><span data-color="top-sales-color3"></span></td>
-                      <td>Canned Goods</td>
-                      <td class="chart-legend-value">824</td>
-                    </tr>
-                  </table>
-                </div>
-                <div class="be-spinner">
-                  <svg width="40px" height="40px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                    <circle fill="none" stroke-width="4" stroke-linecap="round" cx="33" cy="33" r="30" class="circle"></circle>
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-4">
-              <div class="widget widget-calendar">
-                <div id="calendar-widget"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            
-            <div class="col-xs-12 col-md-12">
-              <div class="widget be-loading">
-                <div class="widget-head">
-                  <div class="tools"><span class="icon mdi mdi-chevron-down"></span><span class="icon mdi mdi-refresh-sync toggle-loading"></span><span class="icon mdi mdi-close"></span></div>
-                  <div class="title">Conversions</div>
-                </div>
-                <div class="widget-chart-container">
-                  <div class="widget-chart-info xs-mb-20">
-                    <div class="indicator indicator-positive pull-right"><span class="icon mdi mdi-chevron-up"></span><span class="number">15%</span></div>
-                    <div class="counter counter-inline">
-                      <div class="value">156k</div>
-                      <div class="desc">Impressions</div>
-                    </div>
-                  </div>
-                  <div id="map-widget" style="height: 265px;"></div>
-                </div>
-                <div class="be-spinner">
-                  <svg width="40px" height="40px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                    <circle fill="none" stroke-width="4" stroke-linecap="round" cx="33" cy="33" r="30" class="circle"></circle>
-                  </svg>
                 </div>
               </div>
             </div>
